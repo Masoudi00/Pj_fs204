@@ -61,9 +61,9 @@ const Product = () => {
         </div>
         <div className="col-md-6">
           <h4>{product.category}</h4>
-          <h1>{product.title}</h1>
+          <p className="fw-bold">{product.title}</p>
           <p>{product.description}</p>
-          <h3 className="display-6 fw-bold my-4 ">MAD
+          <h3 className="display-6 fw-bold me-3 ">MAD
            {product.price}</h3>
           <div className="col-m-12">
             <Button
@@ -85,6 +85,7 @@ const Product = () => {
           {/* Display Specifications in two columns with custom styling */}
         </div>
       </div>
+      <hr className="my-4" />
 
       <div className="my-4 ">
             <h5>Specifications:</h5>

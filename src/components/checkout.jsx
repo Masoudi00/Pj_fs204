@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-
+import { Link } from "react-router-dom";
 const Checkout = () => {
   const state = useSelector((state) => state.handlecart);
 
@@ -240,10 +240,10 @@ const Checkout = () => {
               </div>
 
               <hr className="my-4" />
-
-              <button className="w-100 btn btn-primary btn-lg" type="submit">
+              <Link as={Link} to="/Thanks">
+              <button className="w-100 btn btn-primary btn-lg mb-5" type="submit">
                 Continue to checkout
-              </button>
+              </button></Link>
             </form>
           </div>
         </div>

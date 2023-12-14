@@ -17,7 +17,7 @@ function BasicExample() {
           <b>Experience the New Perspective</b>
         </span>
         <br />
-        <b>Building Your Dream PC</b>
+        <b>Buying Your Dream PC</b>
       </h1><br />
 
       {/* Create Now Button */}
